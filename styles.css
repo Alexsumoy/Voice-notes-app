@@ -1,0 +1,116 @@
+body {
+    background-color: #222222;
+    min-width: 300px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+p {
+    color: #444;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.container h1 {
+    margin: 1rem;
+    color: firebrick;
+    text-shadow: gold 2px 2px;
+    box-sizing: content-box;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+}
+
+.page-description {
+    font-size: 2rem;
+    margin: 0 auto;
+    color: silver;
+}
+
+.no-browser-support {
+    display: none;
+    font-size: 1.2rem;
+    color: red;
+    margin-top: 35px;
+}
+
+.app {
+    margin: 40px auto;
+    color: rgb(247, 6, 6);
+}
+
+#note-textarea {
+    margin: 20px 0;
+    width: 70%;
+    border: solid silver 5px;
+    border-radius: 0.6rem;
+    background-color: #aaaaaa25;
+    color: firebrick;
+}
+
+#recording-instructions {
+    margin: 15px auto 60px;
+    color: goldenrod;
+}
+
+#notes {
+    padding-top: 20px;
+    align-items: center;
+}
+
+.note {
+    align-content: center;
+    background-color: palegoldenrod;
+    box-shadow: #444 5px 5px;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.note .header {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    margin: 5px;
+}
+
+.note .date {
+    font-size: 1rem;
+    margin: 25px 30px;
+}
+
+.note .delete-note,
+.note .listen-note {
+    text-decoration: none;
+    width: 7rem;
+    margin: 10px;
+    padding: 10px;
+    border: solid black 3px;
+    background-color: goldenrod;
+    box-shadow: #444 3px 3px;
+    border-radius: 5px;
+}
+
+.note .content {
+    margin: 20px 5px;
+    width: 14rem;
+    height: 7rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 50px 25px;
+    }
+    button {
+        margin-bottom: 10px;
+    }
+}
